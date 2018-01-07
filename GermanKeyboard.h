@@ -21,6 +21,14 @@ void s(char c)
 		DigiKeyboard.print(c);
 		break;
 
+		case '?':
+		DigiKeyboard.sendKeyStroke(45, MOD_SHIFT_LEFT);
+		break;
+
+		case ';':
+		DigiKeyboard.sendKeyStroke(54, MOD_SHIFT_LEFT);
+		break;
+			
 		case '!':
 		DigiKeyboard.sendKeyStroke(KEY_1, MOD_SHIFT_LEFT);
 		break;
