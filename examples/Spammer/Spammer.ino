@@ -1,4 +1,4 @@
-#include <C:\Users\YOURUSERNAME\Desktop\Digispark\GermanKeyboard.h>
+#include <C:\Users\Tim\Desktop\Github\Digispark-German-Keyboard-API\GermanKeyboard.h>
 
 void setup()
 {
