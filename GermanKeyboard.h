@@ -88,9 +88,17 @@ void s(char c)
 		case ':':
 		DigiKeyboard.sendKeyStroke(55, MOD_SHIFT_LEFT);
 		break;
+			
+		case '+':
+		DigiKeyboard.sendKeyStroke(48);
+		break;
 
 		case '-':
 		DigiKeyboard.sendKeyStroke(56);
+		break;
+
+		case '*':
+		DigiKeyboard.sendKeyStroke(48, MOD_SHIFT_LEFT);
 		break;
 
 		case '_':
