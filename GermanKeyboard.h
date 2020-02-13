@@ -112,6 +112,14 @@ void s(char c)
 		case '\'':
 		DigiKeyboard.sendKeyStroke(49, MOD_SHIFT_LEFT);
 		break;
+			
+		case '<':
+		DigiKeyboard.sendKeyStroke(100);
+		break;
+
+		case '>':
+		DigiKeyboard.sendKeyStroke(100, MOD_SHIFT_LEFT);
+		break;
 
 		case 'z':
 		DigiKeyboard.sendKeyStroke(KEY_Y);
