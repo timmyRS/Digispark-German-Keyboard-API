@@ -96,7 +96,11 @@ void s(char c)
 		case '-':
 		DigiKeyboard.sendKeyStroke(56);
 		break;
-
+		
+                case '\\':
+                DigiKeyboard.sendKeyStroke(45, MOD_ALT_RIGHT);
+                break;
+		
 		case '*':
 		DigiKeyboard.sendKeyStroke(48, MOD_SHIFT_LEFT);
 		break;
